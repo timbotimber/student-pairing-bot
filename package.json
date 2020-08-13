@@ -1,0 +1,23 @@
+{
+  "name": "pair-generator-app",
+  "version": "1.0.0",
+  "description": "a student pairing bot for slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbotimber/student-pairing-bot.git"
+  },
+  "author": "Tim Stephens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timbotimber/student-pairing-bot/issues"
+  },
+  "homepage": "https://github.com/timbotimber/student-pairing-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.2.3",
+    "dotenv": "^8.2.0"
+  }
+}
